@@ -2,28 +2,25 @@ import java.util.Scanner;
 
 public class Greet {
 
-    private String username;  // Field to store user's name
+    private String username;
 
-    // Constructor that takes a username
     public Greet(String username) {
         this.username = username;
     }
 
-    // Method to greet the user
     public String sayHello() {
         return "Hello, " + username + "!";
     }
 
-    // Main method to test the class
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);  // Create Scanner to read input
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter your name: ");
-        String nameInput = scanner.nextLine();  // Read user input
+        String nameInput = scanner.nextLine();
 
-        Greet user = new Greet(nameInput);  // Create Greet object with user's input
-        System.out.println(user.sayHello());  // Greet the user
+        Greet user = new Greet(nameInput);
+        System.out.println(user.sayHello());
 
-        scanner.close();  // Close the scanner
+        scanner.close();
     }
 }
