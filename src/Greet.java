@@ -12,7 +12,7 @@ public class Greet {
         return "Hello, " + username + "!";
     }
 
-    public static void main(String[] args) {
+    public static void startGreeting() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter your name: ");
@@ -22,5 +22,9 @@ public class Greet {
         System.out.println(user.sayHello());
 
         scanner.close();
+    }
+
+    public static void main(String[] args) {
+        startGreeting();
     }
 }
