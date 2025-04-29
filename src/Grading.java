@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class Grading {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); // Create Scanner object
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter the score:");
-        int score = scanner.nextInt(); // Read user input
+        int score = scanner.nextInt();
 
         if (score >= 90) {
             System.out.println("Grade: A");
@@ -19,6 +19,6 @@ public class Grading {
             System.out.println("Grade: F");
         }
 
-        scanner.close(); // Close the scanner
+        scanner.close();
     }
 }
