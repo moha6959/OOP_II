@@ -1,3 +1,4 @@
+package challenge5;
 import java.util.Scanner;
 
 public class Grading {

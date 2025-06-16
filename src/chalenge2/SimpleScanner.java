@@ -1,3 +1,4 @@
+package chalenge2;
 import java.util.Scanner;
 
 public class SimpleScanner {
