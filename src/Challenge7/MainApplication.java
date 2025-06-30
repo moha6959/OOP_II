@@ -8,4 +8,4 @@ public class MainApplication {
         curAdmin.performOperation(new Update()); // Output: Data has been updated
         curUser.performOperation(new View());    // Output: Some data has been displayed
     }
-}
+}//
