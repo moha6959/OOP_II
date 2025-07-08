@@ -1,7 +1,5 @@
 package challenge9;
 
-import java.io.*;
-
 
 public class Arithmetic {
     public static void main(String [] args){
